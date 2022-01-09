@@ -1,0 +1,309 @@
+/*
+########################################
+                  Global
+########################################
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Fjalla+One&family=Work+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h2,
+footer nav ul li a {
+  font-size: 10rem;
+}
+
+h3 {
+  font-size: 7rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ---------- center ---------- */
+/* #############################*/
+
+header,
+main section h2,
+main section:nth-of-type(1),
+footer {
+  text-align: center;
+}
+
+/* ---------- fonts ---------- */
+/* ############################*/
+
+h1,
+h3,
+footer ul li a {
+  font-family: "Didact Gothic";
+}
+
+h2,
+p,
+a {
+  font-family: "Work Sans";
+}
+
+main section:nth-of-type(2) article a,
+main section:nth-of-type(2) article p:nth-of-type(3) {
+  font-family: "Fjalla One";
+}
+
+/* ---------- color ---------- */
+/* ############################*/
+
+main section:nth-of-type(2) article:nth-of-type(odd),
+main section:nth-of-type(2) article:nth-of-type(odd) a,
+main section:nth-of-type(2) article:nth-of-type(odd) a:hover + p,
+main section:nth-of-type(2) article:nth-of-type(even) a:hover,
+main section:nth-of-type(3) h2,
+main section:nth-of-type(3) a {
+  color: #fff;
+}
+
+main section:nth-of-type(2) article:nth-of-type(even) a,
+main section:nth-of-type(2) article:nth-of-type(even) a:hover + p,
+main section:nth-of-type(2) article:nth-of-type(odd) a:hover,
+footer ul li a {
+  color: #000;
+}
+
+main section:nth-of-type(2) article:nth-of-type(even) a:hover,
+main section:nth-of-type(3) {
+  background: #000;
+}
+
+main section:nth-of-type(2) article:nth-of-type(odd) p,
+main section:nth-of-type(3) a:hover {
+  color: #9e9e9e;
+}
+
+main section:nth-of-type(2) article:nth-of-type(even) p,
+main section:nth-of-type(3) p {
+  color: #666;
+}
+
+/*
+########################################
+                  Header
+########################################
+*/
+
+header p {
+  margin-top: 1.25rem;
+}
+
+/*
+########################################
+                  Main
+########################################
+*/
+
+/* ---------- main section 1 ---------- */
+/* #####################################*/
+
+main section:nth-of-type(1) h1 {
+  width: 43.75rem;
+  margin: 3.75rem auto;
+  font-size: 6.25rem;
+}
+
+main section:nth-of-type(1) img {
+  width: 45rem;
+  height: 67.5rem;
+}
+
+/* ---------- main section 2 ---------- */
+/* #####################################*/
+
+/* ---------- background ---------- */
+
+main section:nth-of-type(2) article:nth-of-type(1) {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/portfolio2.jpg) center/cover no-repeat;
+}
+
+main section:nth-of-type(2) article:nth-of-type(2) {
+  background: url(../img/portfolio3.png) center/cover no-repeat;
+}
+
+main section:nth-of-type(2) article:nth-of-type(3) {
+  background: url(../img/portfolio4.jpg) center/cover no-repeat;
+}
+
+main section:nth-of-type(2) article:nth-of-type(4) {
+  background: url(../img/portfolio5.png) center/cover no-repeat;
+}
+
+/* ---------- text ---------- */
+
+main section:nth-of-type(2) h2 {
+  margin: 7.5rem 0 9.375rem 0;
+}
+
+main section:nth-of-type(2) article {
+  padding-left: 13.75rem;
+}
+
+main section:nth-of-type(2) article a {
+  padding: 1rem 1.625rem;
+}
+
+main section:nth-of-type(2) article p:nth-of-type(1) {
+  margin-bottom: 1.25rem;
+}
+
+main section:nth-of-type(2) article p:nth-of-type(2) {
+  margin: 2.5rem 0 6rem 0;
+}
+
+main section:nth-of-type(2) article p:nth-of-type(3) {
+  font-size: 10.313rem;
+  text-align: end;
+  margin-right: 7.188rem;
+}
+
+/* ---------- odd ---------- */
+
+main section:nth-of-type(2) article:nth-of-type(odd) {
+  height: 100vh;
+}
+
+main section:nth-of-type(2) article:nth-of-type(odd) p:nth-of-type(1) {
+  padding-top: 9.375rem;
+}
+
+main section:nth-of-type(2) article:nth-of-type(odd) p:nth-of-type(3) {
+  opacity: 0.2;
+}
+
+main section:nth-of-type(2) article:nth-of-type(odd) a {
+  border: 2px solid #9e9e9e;
+}
+
+main section:nth-of-type(2) article:nth-of-type(odd) a:hover {
+  background: #fff;
+  border-color: #fff;
+}
+
+/* ---------- even ---------- */
+
+main section:nth-of-type(2) article:nth-of-type(even) {
+  height: 127.85vh;
+}
+
+main section:nth-of-type(2) article:nth-of-type(even) p:nth-of-type(1) {
+  padding-top: 15.625rem;
+}
+
+main section:nth-of-type(2) article:nth-of-type(even) p:nth-of-type(3) {
+  opacity: 0.9;
+}
+
+main section:nth-of-type(2) article:nth-of-type(even) a {
+  border: 2px solid #000;
+}
+
+/* ---------- opacity ---------- */
+
+main section:nth-of-type(2) article:nth-of-type(odd) a:hover + p,
+main section:nth-of-type(2) article:nth-of-type(even) a:hover + p {
+  opacity: 1;
+}
+
+/* ---------- main section 3 ---------- */
+/* #####################################*/
+
+main section:nth-of-type(3) {
+  height: 112.712vh;
+}
+
+main section:nth-of-type(3) h2 {
+  font-size: 11.25rem;
+  text-transform: unset;
+  letter-spacing: -0.1em;
+  padding: 8.125rem 0 9.375rem 0;
+}
+
+main section:nth-of-type(3) p,
+main section:nth-of-type(3) a {
+  margin-left: 40rem;
+}
+
+main section:nth-of-type(3) p {
+  width: 43.75rem;
+  font-size: 1.375rem;
+  line-height: 2.475rem;
+  margin-bottom: 4.5rem;
+}
+
+main section:nth-of-type(3) a {
+  font-size: 3.75rem;
+}
+
+main section:nth-of-type(3) a:hover,
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/*
+########################################
+                  Footer
+########################################
+*/
+
+footer {
+  margin-top: 14.375rem;
+}
+
+footer nav ul li:nth-of-type(2) {
+  margin: 9.375rem 0;
+}
+
+footer i {
+  font-size: 2.188rem;
+  margin: 13.438rem 0 8.438rem 0;
+  animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
